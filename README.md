@@ -164,31 +164,31 @@ https://github.com/cneiderer/ie7500_group_project
 </span>
 
 ```
-ie7500_group_project<br>
-├──  .git<br>
-├──  .gitignore<br>
-├──  LICENSE<br>
-├──  README.md<br>
-├──  \_\_init\_\_.py<br>
-├──  data<br>
-│   ├── \_\_init\_\_.py<br>
-│   ├── data_loader.py<br>
-│   └── data_preprocessor.py<br>
-├── documentation<br>
-│   ├── documentation.md<br>
-├── evaluation<br>
-│   ├── \_\_init\_\_.py<br>
-│   └── evaluation_metrics.py<br>
-├── experiments<br>
-│   ├── \_\_init\_\_.py<br>
-│   ├── experiment_1.ipynb<br>
-│   ├── experiment_2.ipynb<br>
-│   └── experiment_3.ipynb<br>
-├── models<br>
-│   ├── \_\_init\_\_.py<br>
-│   ├── model_1.py<br>
-│   ├── model_2.py<br>
-│   └── model_3.py<br>
-├── requirements.txt<br>
-└── setup.py<br>
+ie7500_group_project
+├──  .git
+├──  .gitignore
+├──  LICENSE
+├──  README.md
+├──  \_\_init\_\_.py
+├──  data
+│   ├── \_\_init\_\_.py
+│   ├── data_loader.py
+│   └── data_preprocessor.py
+├── documentation
+│   ├── documentation.md
+├── evaluation
+│   ├── \_\_init\_\_.py
+│   └── evaluation_metrics.py
+├── experiments
+│   ├── \_\_init\_\_.py
+│   ├── experiment_1.ipynb
+│   ├── experiment_2.ipynb
+│   └── experiment_3.ipynb
+├── models
+│   ├── \_\_init\_\_.py
+│   ├── model_1.py
+│   ├── model_2.py
+│   └── model_3.py
+├── requirements.txt
+└── setup.py
 ```
