@@ -93,15 +93,15 @@
 
 ### <u>Objectives</u>
 1. <b>Transcript Segmentation & Speaker Classification</b>
-  Tag each line within mixed transcripts as either “pilot” or “controller.”
-1. <b>Pilot Intent & Parameter Extraction</b>
+   * Tag each line within mixed transcripts as either “pilot” or “controller.”
+2. <b>Pilot Intent & Parameter Extraction</b>
    * Within “pilot” segments, classify intent: Altitude change, heading change, clearance request, position report, etc.
    * Use sequence-labeling to pull out parameters (flight levels, headings, waypoints).
-2. <b>Context Tracking</b>
+3. <b>Context Tracking</b>
    * Maintain a simple state dictionary: current altitude, heading, clearance status.
    * Update state after each pilot and generated ATC turn.
-3. <b>ATC Response Generation</b>
-  Fine-tune a seq-to-seq model on paired pilot-controller text to generate an ATC-compliant sentence (“Climb and maintain FL200,” “Turn right heading 090.”).
+4. <b>ATC Response Generation</b>
+   * Fine-tune a seq-to-seq model on paired pilot-controller text to generate an ATC-compliant sentence (“Climb and maintain FL200,” “Turn right heading 090.”).
 
 ### <u>Literature Review</u>
 * "Automatic Speech Recognition for Air Traffic Control" by Balakrishnan et al. 
