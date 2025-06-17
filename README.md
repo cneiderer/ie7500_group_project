@@ -163,30 +163,32 @@ https://github.com/cneiderer/ie7500_group_project
 <p>We need to update this structure prior to submission.</p>
 </span>
 
+```
 ie7500_group_project<br>
-|--- .git<br>
-|--- .gitignore<br>
-|--- LICENSE<br>
-|--- README.md<br>
-|--- \_\_init\_\_.py<br>
-|--- data<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- \_\_init\_\_.py<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- data_loader.py<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- data_preprocessor.py<br>
-|--- documentation<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- documentation.md<br>
-|--- evaluation<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- \_\_init\_\_.py<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- evaluation_metrics.py<br>
-|--- experiments<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- \_\_init\_\_.py<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- experiment_1.ipynb<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- experiment_2.ipynb<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- experiment_3.ipynb<br>
-|--- models<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- \_\_init\_\_.py<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- model_1.py<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- model_2.py<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- model_3.py<br>
-|--- requirements.txt<br>
-|--- setup.py<br>
+├──  .git<br>
+├──  .gitignore<br>
+├──  LICENSE<br>
+├──  README.md<br>
+├──  \_\_init\_\_.py<br>
+├──  data<br>
+│   ├── \_\_init\_\_.py<br>
+│   ├── data_loader.py<br>
+│   └── data_preprocessor.py<br>
+├── documentation<br>
+│   ├── documentation.md<br>
+├── evaluation<br>
+│   ├── \_\_init\_\_.py<br>
+│   └── evaluation_metrics.py<br>
+├── experiments<br>
+│   ├── \_\_init\_\_.py<br>
+│   ├── experiment_1.ipynb<br>
+│   ├── experiment_2.ipynb<br>
+│   └── experiment_3.ipynb<br>
+├── models<br>
+│   ├── \_\_init\_\_.py<br>
+│   ├── model_1.py<br>
+│   ├── model_2.py<br>
+│   └── model_3.py<br>
+├── requirements.txt<br>
+└── setup.py<br>
+```
